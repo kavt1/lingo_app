@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+  songs = Song.create(
+    title: 'Perhaps Perhaps Perhaps SEED',
+    author: 'Cake',
+    time: 2.24,
+    lyric_lineID: 'A million times Ive asked you,
+    And then I ask you over again You only answer
+    Perhaps, perhaps, perhaps')

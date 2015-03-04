@@ -1,6 +1,21 @@
-<p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Chosen Song</strong>
+</p>
+
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+
+      <ul class="list-inline">
+         <li><h2>Song: <%= @song.title %></h2></li>
+         <li>Author: <%= @song.author %> </li>
+         <li>Time: <%= @song.time %> </li>
+         <li>Lyrics: <%= @song.lyric_lineID %> </li>
+
+
+<p id="notice"><%= notice %></p>
+
+<!-- <p>
   <strong>Title:</strong>
   <%= @song.title %>
 </p>
@@ -8,9 +23,9 @@
 <p>
   <strong>Author:</strong>
   <%= @song.author %>
-</p>
+</p> -->
 
-<p>
+<!-- <p>
   <strong>Time:</strong>
   <%= @song.time %>
 </p>
@@ -23,7 +38,6 @@
 <p>
   <strong>Tune:</strong>
   <%= @song.tune %>
-</p>
+</p> -->
 
-<%= link_to 'Edit', edit_song_path(@song) %> |
 <%= link_to 'Back', songs_path %>
