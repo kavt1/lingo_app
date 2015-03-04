@@ -12,6 +12,41 @@ class SongsController < ApplicationController
   def show
   end
 
+
+# -----------------------------------------
+# Playing each line with audio
+
+  def audioplayer
+    url = " the drop box URL "
+    song = JSON.parse(open(url).read)
+    @title =  song['title']
+    @subtitle = song['subtitle']
+    @image_file_name = song['image_file_name']
+    @audio_url = song['audio_url']
+    @lyrics = song['lyrics']
+    @transitions = get_words_transitions(song['lyrics'])
+  end
+
+
+  def get_lines_transitions(lyrics)
+    result = {}
+    lyrics.each do |line|
+      id = line['id']
+      result[id.to_sym] = { time_start:  line['time_start'], time_end: line['time_end'] }
+    end
+    result;
+  end
+
+# ------------------------------------------
+
+
+
+
+
+
+
+
+
   # GET /songs/new
   def new
     @song = Song.new

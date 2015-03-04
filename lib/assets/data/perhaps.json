@@ -1,0 +1,49 @@
+// Perhaps
+// http://www.azlyrics.com/lyrics/cake/perhaps.html
+
+// You won't admit you love me.
+// And so how am I ever to know?
+// You only tell me
+// Perhaps, perhaps, perhaps.
+// A million times I ask you,
+// And then I ask you over again.
+// You only answer
+// Perhaps, perhaps, perhaps.
+
+// If you can't make your mind up,
+// We'll never get started.
+// And I don't wanna wind up
+// Being parted, broken-hearted.
+// So if you really love me,
+// Say yes.
+// But if you don't, dear, confess.
+// And please don't tell me
+// Perhaps, perhaps, perhaps.
+
+// If you can't make your mind up,
+// We'll never get started.
+// And I don't wanna wind up
+// Being parted, broken-hearted.
+// So if you really love me,
+// Say yes.
+// But if you don't, dear, confess.
+// And please don't tell me
+// Perhaps, perhaps, perhaps,
+// Perhaps, perhaps, perhaps,
+// Perhaps, perhaps, perhaps.
+
+{
+  "title": "Perhaps",
+  "subtitle": "Super Simple Songs",
+  "author": "Cake",
+  "media_type": 1,
+  //"media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/yes_i_can_animal_song_wrong.mp4",
+  "media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/yes_i_can_song.mp4",
+  "lyrics":
+  [
+    {
+      "id": "l1",
+      "text": "You won't admit you love me.",
+      "time_start": 0.06,
+      "time_end": 0.09
+    },
