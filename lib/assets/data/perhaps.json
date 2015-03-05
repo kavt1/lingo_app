@@ -34,11 +34,11 @@
 
 {
   "title": "Perhaps",
-  "subtitle": "Super Simple Songs",
+  "subtitle": "English Learning Song",
   "author": "Cake",
   "media_type": 1,
   //"media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/yes_i_can_animal_song_wrong.mp4",
-  "media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/yes_i_can_song.mp4",
+  // "media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/yes_i_can_song.mp4",
   "lyrics":
   [
     {
@@ -47,3 +47,166 @@
       "time_start": 0.06,
       "time_end": 0.09
     },
+    {
+      "id": "l2",
+      "text": "And so how am I ever to know?",
+      "time_start": 0.10 ,
+      "time_end": 0.15
+    },
+    {
+      "id": "l3",
+      "text": "You only tell me",
+      "time_start": 0.16,
+      "time_end": 0.18
+    },
+    {
+      "id": "l4",
+      "text": "Perhaps, perhaps, perhaps.",
+      "time_start": 0.19 ,
+      "time_end": 0.22
+    },
+    {
+      "id": "l5",
+      "text": "A million times I ask you,",
+      "time_start": 0.24 ,
+      "time_end": 0.26
+    },
+    {
+      "id": "l6",
+      "text": "And then I ask you over again.",
+      "time_start": 0.27 ,
+      "time_end": 0.32
+    },
+    {
+      "id": "l7",
+      "text": "You only answer",
+      "time_start": 0.33 ,
+      "time_end": 0.35
+    },
+    {
+      "id": "l8",
+      "text": "Perhaps, perhaps, perhaps.",
+      "time_start": 0.36 ,
+      "time_end": 0.38
+    },
+    {
+      "id": "l9",
+      "text": "If you can't make your mind up,",
+      "time_start": 0.40,
+      "time_end": 0.43
+    },
+    {
+      "id": "l10",
+      "text": "We'll never get started.",
+      "time_start": 0.44 ,
+      "time_end": 0.48
+    },
+    {
+      "id": "l11",
+      "text": "And I don't wanna wind up",
+      "time_start": 0.49,
+      "time_end": 0.52
+    },
+    {
+      "id": "l12",
+      "text": "Being parted, broken-hearted.",
+      "time_start": 0.52,
+      "time_end": 0.56
+    },
+    {
+      "id": "l13",
+      "text": "So if you really love me,",
+      "time_start": 0.57,
+      "time_end": 1.00
+    },
+    {
+      "id": "l14",
+      "text": "Say yes.",
+      "time_start": 1.01,
+      "time_end": 1.02
+    },
+    {
+      "id": "l15",
+      "text": "But if you don't, dear, confess.",
+      "time_start": 1.02,
+      "time_end": 1.06
+    },
+    {
+      "id": "l16",
+      "text": "And please don't tell me",
+      "time_start": 1.07,
+      "time_end": 1.09
+    },
+    {
+      "id": "l17",
+      "text": "Perhaps, perhaps, perhaps. ",
+      "time_start": 1.10,
+      "time_end": 1.14
+    },
+     {
+      "id": "l18",
+      "text": "If you can't make your mind up,",
+      "time_start": 1.31 ,
+      "time_end": 1.34
+    },
+     {
+      "id": "l19",
+      "text": "We'll never get started.",
+      "time_start": 1.35,
+      "time_end": 1.39
+    },
+     {
+      "id": "l20",
+      "text": "And I don't wanna wind up",
+      "time_start": 1.40 ,
+      "time_end": 1.42
+    },
+     {
+      "id": "l21",
+      "text": "Being parted, broken-hearted.",
+      "time_start": 1.43 ,
+      "time_end": 1.47
+    },
+     {
+      "id": "l22",
+      "text": "So if you really love me,",
+      "time_start": 1.48,
+      "time_end": 1.51
+    },
+     {
+      "id": "l23",
+      "text": "Say yes.",
+      "time_start": 1.52,
+      "time_end": 1.53
+    },
+     {
+      "id": "l24",
+      "text": "But if you don't, dear, confess.",
+      "time_start": 1.54,
+      "time_end": 1.57
+    },
+     {
+      "id": "l25",
+      "text": "And please don't tell me",
+      "time_start": 1.58,
+      "time_end": 1.59
+    },
+     {
+      "id": "l26",
+      "text": "Perhaps, perhaps, perhaps,",
+      "time_start": 2.00,
+      "time_end": 2.03
+    },
+     {
+      "id": "l27",
+      "text": "Perhaps, perhaps, perhaps,",
+      "time_start": 2.04,
+      "time_end": 2.07
+    },
+     {
+      "id": "l28",
+      "text": "Perhaps, perhaps, perhaps.",
+      "time_start": 2.08,
+      "time_end": 2.18
+    },
+]
