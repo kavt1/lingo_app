@@ -1,3 +1,61 @@
 // Place all the styles related to the Songs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.navigation {
+  margin-top: 50px;
+}
+.word {
+   color: red;
+}
+.word:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.word.selected {
+  color: #FFFFFF;
+  background-color: blue;
+}
+
+.jumbotron {
+  .image {
+    width: 200px;
+    margin: 10px auto 0 auto;
+  }
+  .audio_control {
+    width: 500px;
+  }
+  .lyrics_box {
+    width: 600px;
+    margin: 20px auto 0px auto;
+    padding: 5px;
+    text-align: center;
+    line-height: 15px;
+  }
+}
+
+.line {
+   color: #A0A0A0;
+}
+.line:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.line.selected {
+  color: #FFFFFF;
+  background-color: blue;
+}
+
+.media_container {
+  margin: 20px 10px;
+}
+
+.text_container {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px #A0A0A0;
+  overflow: scroll;
+  height: 200px;
+}

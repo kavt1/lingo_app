@@ -10,6 +10,7 @@ class SongsController < ApplicationController
   # GET /songs/1
   # GET /songs/1.json
   def show
+    audioplayer
   end
 
 
@@ -18,9 +19,9 @@ class SongsController < ApplicationController
 
   def audioplayer
     song = JSON.parse(open('lib/assets/data/perhaps.json').read)
+
     @title =  song['title']
-    @subtitle = song['subtitle']
-    @image_file_name = song['image_file_name']
+    @author = song['author']
     @audio_url = song['audio_url']
     @lyrics = song['lyrics']
     @transitions = get_lines_transitions(song['lyrics'])
@@ -98,7 +99,7 @@ class SongsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_song
-      @song = Song.find(params[:id])
+      # @song = Song.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
