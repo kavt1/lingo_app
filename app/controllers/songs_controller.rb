@@ -17,14 +17,13 @@ class SongsController < ApplicationController
 # Playing each line with audio
 
   def audioplayer
-    url = " the drop box URL "
-    song = JSON.parse(open(url).read)
+    song = JSON.parse(open('lib/assets/data/perhaps.json').read)
     @title =  song['title']
     @subtitle = song['subtitle']
     @image_file_name = song['image_file_name']
     @audio_url = song['audio_url']
     @lyrics = song['lyrics']
-    @transitions = get_words_transitions(song['lyrics'])
+    @transitions = get_lines_transitions(song['lyrics'])
   end
 
 
