@@ -1,7 +1,9 @@
+// Airbnb infinite smooth list
+// http://airbnb.github.io/infinity/
 $(document).ready(function() {
 
-  var media_pop = Popcorn("#media_player");
 
+  var media_pop = Popcorn("#media_player");
 
   $('body').on('click', function (e) {
     if ($(e.target).data('toggle') !== 'popover'
@@ -9,6 +11,8 @@ $(document).ready(function() {
       $('[data-toggle="popover"]').popover('hide');
     }
   });
+
+
 
   // $('.word').click(function() {
   //   var audio = $('#media_player');
@@ -26,6 +30,7 @@ $(document).ready(function() {
     audio[0].play();
   });
 
+
   $('#start').click(function() {
     media_pop.play(0);
   });
@@ -38,31 +43,19 @@ $(document).ready(function() {
     media_pop.pause();
   });
 
-  $.each(wordsTransition, function(id, time) {
-    media_pop.footnote({
-      start: time.time_start,
-      end: time.time_end,
-      text: '',
-      target: id,
-      effect: "applyclass",
-      applyclass: "selected"
-    });
-  });
 
-  $.each(linesTransition, function(id, time) {
-    media_pop.footnote({
-      start: time.time_start,
-      end: time.time_end,
-      text: '',
-      target: id,
-      effect: "applyclass",
-      applyclass: "active"
-    });
-  });
+  // $.each(wordsTransition, function(id, time) {
+  //   media_pop.footnote({
+  //     start: time.time_start,
+  //     end: time.time_end,
+  //     text: '',
+  //     target: id,
+  //     effect: "applyclass",
+  //     applyclass: "selected"
+  //   });
+  // });
 
-  // http://jsfiddle.net/xsgy41wz/
-
-  $.each(linesTransition, function(id, time) {
+$.each(linesTransition, function(id, time) {
     media_pop.code( {
       start: time.time_start,
       end: time.time_end,
@@ -82,4 +75,23 @@ $(document).ready(function() {
       }
     });
   });
+
+
+
+  $.each(linesTransition, function(id, time) {
+    media_pop.footnote({
+      start: time.time_start,
+      end: time.time_end,
+      text: '',
+      target: id,
+      effect: "applyclass",
+      applyclass: "active"
+    });
+  });
+
+
+
+  // http://jsfiddle.net/xsgy41wz/
+
+
 });

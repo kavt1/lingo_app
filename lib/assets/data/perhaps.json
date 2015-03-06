@@ -37,32 +37,33 @@
   "subtitle": "English Learning Song",
   "author": "Cake",
   "media_type": 1,
-  //"media_url": "https://www.dropbox.com/s/6d3srkcojmp43s6/Cake%20-%20Perhaps%20Perhaps%20Perhaps%20(1).mp3?dl=0",
+  "media_url": "https://dl.dropboxusercontent.com/u/26873847/karaoke/an-owl-sat-alone.mp3",
+  // "media_url": "https://www.dropbox.com/s/nf23hmwbq5g6ff8/Cake%20-%20Perhaps%2C%20Perhaps%2C%20Perhaps.mp4",
   "lyrics":
   [
     {
       "id": "l1",
       "text": "You won't admit you love me.",
-      "time_start": 0.06,
-      "time_end": 0.09
+      "time_start": 6,
+      "time_end": 9
     },
     {
       "id": "l2",
       "text": "And so how am I ever to know?",
-      "time_start": 0.10 ,
-      "time_end": 0.15
+      "time_start": 10 ,
+      "time_end": 15
     },
     {
       "id": "l3",
       "text": "You only tell me",
-      "time_start": 0.16,
-      "time_end": 0.18
+      "time_start": 16,
+      "time_end": 18
     },
     {
       "id": "l4",
       "text": "Perhaps, perhaps, perhaps.",
-      "time_start": 0.19 ,
-      "time_end": 0.22
+      "time_start": 19 ,
+      "time_end": 22
     },
     {
       "id": "l5",

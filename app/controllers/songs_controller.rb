@@ -19,12 +19,13 @@ class SongsController < ApplicationController
 
   def audioplayer
     song = JSON.parse(open('lib/assets/data/perhaps.json').read)
-
     @title =  song['title']
     @author = song['author']
-    @audio_url = song['audio_url']
+    @media_url = song['media_url']
     @lyrics = song['lyrics']
+    @media_type = song['media_type']
     @transitions = get_lines_transitions(song['lyrics'])
+    p "asdasdasdasdasd" + @media_url
   end
 
 
@@ -106,4 +107,27 @@ class SongsController < ApplicationController
     def song_params
       params.require(:song).permit(:title, :author, :time, :lyric_lineID, :tune)
     end
+
+  def get_words_transitions(lyrics)
+    result = {}
+    lyrics.each do |line|
+      words = line['words']
+      if words
+        words.each do |word|
+          id = word['id']
+          result[id.to_sym] = { time_start:  word['time_start'], time_end: word['time_end'] }
+        end
+      end
+    end
+    result
+  end
+
+  def get_lines_transitions(lyrics)
+    result = {}
+    lyrics.each do |line|
+      id = line['id']
+      result[id.to_sym] = { time_start:  line['time_start'], time_end: line['time_end'] }
+    end
+    result;
+  end
 end

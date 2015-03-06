@@ -7,13 +7,14 @@
   <h1> <%= @title %><small> <% if !@subtitle.nil? %> (<%= @subtitle %>) <% end %></small></h1>
 </div>
 
-<!-- <div class='row text-center'>
+<!-- <audio id='media_player' src='https://dl.dropboxusercontent.com/u/26873847/karaoke/an-owl-sat-alone.mp3' controls class='audio_control'></audio> -->
+<div class='row text-center'>
   <div class='media_container'>
-  <% if @media_type == 0 %>
+  <% if @media_type == 1 %>
     <audio id='media_player' src=<%= @media_url %> controls class='audio_control'></audio>
   <% else %>
     <video id='media_player' width="500" src=<%= @media_url %>  class='video_control'></video>
-  <% end %> -->
+  <% end %>
   </div>
 </div>
 <div class='row text-center'>
